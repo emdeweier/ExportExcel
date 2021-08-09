@@ -1,0 +1,217 @@
+2021-08-04 18:12:35.762 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-04 18:12:35.788 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/logs  
+2021-08-04 18:12:35.909 +07:00 [INF] Hosting environment: Development
+2021-08-04 18:12:35.909 +07:00 [INF] Content root path: C:\Users\marzo\Documents\Project\ExportExcel\LogActivitty
+2021-08-04 18:12:35.961 +07:00 [INF] Request finished in 179.6204ms 404 
+2021-08-04 18:12:41.933 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/logs/result/1  
+2021-08-04 18:12:41.935 +07:00 [INF] Request finished in 2.176ms 404 
+2021-08-04 18:12:52.823 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/api/logs/result/1  
+2021-08-04 18:12:52.835 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:12:52.897 +07:00 [INF] Route matched with {action = "GetResult", controller = "Logs"}. Executing controller action with signature System.Collections.Generic.List`1[LogActivitty.Models.Product] GetResult(System.String) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:12:52.914 +07:00 [INF] called get product
+2021-08-04 18:12:53.075 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[LogActivitty.Models.Product, LogActivitty, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-04 18:12:53.107 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.GetResult (LogActivitty) in 201.8668ms
+2021-08-04 18:12:53.108 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:12:53.114 +07:00 [INF] Request finished in 290.9742ms 200 application/json; charset=utf-8
+2021-08-04 18:12:53.207 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/favicon.ico  
+2021-08-04 18:12:53.209 +07:00 [INF] Request finished in 0.9763ms 404 
+2021-08-04 18:13:27.279 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/api/logs/result/2  
+2021-08-04 18:13:27.281 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:13:27.282 +07:00 [INF] Route matched with {action = "GetResult", controller = "Logs"}. Executing controller action with signature System.Collections.Generic.List`1[LogActivitty.Models.Product] GetResult(System.String) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:13:27.284 +07:00 [INF] called get product
+2021-08-04 18:13:27.306 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[LogActivitty.Models.Product, LogActivitty, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-04 18:13:27.307 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.GetResult (LogActivitty) in 25.3248ms
+2021-08-04 18:13:27.307 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:13:27.307 +07:00 [INF] Request finished in 28.4049ms 200 application/json; charset=utf-8
+2021-08-04 18:14:27.154 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-04 18:14:27.170 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/api/logs/result/2  
+2021-08-04 18:14:27.190 +07:00 [INF] Hosting environment: Development
+2021-08-04 18:14:27.190 +07:00 [INF] Content root path: C:\Users\marzo\Documents\Project\ExportExcel\LogActivitty
+2021-08-04 18:14:27.210 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:14:27.245 +07:00 [INF] Route matched with {action = "GetResult", controller = "Logs"}. Executing controller action with signature System.Collections.Generic.List`1[LogActivitty.Models.Product] GetResult(System.String) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:14:27.256 +07:00 [INF] called get product
+2021-08-04 18:14:27.374 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[LogActivitty.Models.Product, LogActivitty, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-04 18:14:27.396 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.GetResult (LogActivitty) in 147.2621ms
+2021-08-04 18:14:27.397 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:14:27.400 +07:00 [INF] Request finished in 234.2794ms 200 application/json; charset=utf-8
+2021-08-04 18:14:43.244 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/api/logs/post1  
+2021-08-04 18:14:43.246 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:14:43.249 +07:00 [INF] Route matched with {action = "AddNewIndexTest", controller = "Logs"}. Executing controller action with signature Void AddNewIndexTest() on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:14:43.251 +07:00 [INF] called post product
+2021-08-04 18:14:43.290 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty) in 40.4626ms
+2021-08-04 18:14:43.290 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:14:43.291 +07:00 [INF] Request finished in 47.1028ms 200 
+2021-08-04 18:17:27.967 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-04 18:17:27.982 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/api/logs/post1  
+2021-08-04 18:17:28.005 +07:00 [INF] Hosting environment: Development
+2021-08-04 18:17:28.005 +07:00 [INF] Content root path: C:\Users\marzo\Documents\Project\ExportExcel\LogActivitty
+2021-08-04 18:17:28.029 +07:00 [INF] Request finished in 50.5149ms 404 
+2021-08-04 18:17:28.082 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/api/logs/post  
+2021-08-04 18:17:28.089 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-08-04 18:17:28.089 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-08-04 18:17:28.091 +07:00 [INF] Request finished in 8.3051ms 405 
+2021-08-04 18:17:30.386 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/api/logs/post  
+2021-08-04 18:17:30.388 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-08-04 18:17:30.389 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-08-04 18:17:30.391 +07:00 [INF] Request finished in 4.7893ms 405 
+2021-08-04 18:18:56.088 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-04 18:18:56.105 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:64239/api/logs/post application/json 157
+2021-08-04 18:18:56.164 +07:00 [INF] Hosting environment: Development
+2021-08-04 18:18:56.164 +07:00 [INF] Content root path: C:\Users\marzo\Documents\Project\ExportExcel\LogActivitty
+2021-08-04 18:18:56.192 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:18:56.240 +07:00 [INF] Route matched with {action = "AddNewIndexTest", controller = "Logs"}. Executing controller action with signature Void AddNewIndexTest(LogActivitty.Models.Product) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:18:56.286 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-08-04 18:18:56.300 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty) in 55.8737ms
+2021-08-04 18:18:56.304 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:18:56.307 +07:00 [INF] Request finished in 208.454ms 400 application/problem+json; charset=utf-8
+2021-08-04 18:20:27.622 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:64239/api/logs/post multipart/form-data; boundary=--------------------------000471197842611275589889 609
+2021-08-04 18:20:27.626 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:20:27.627 +07:00 [INF] Route matched with {action = "AddNewIndexTest", controller = "Logs"}. Executing controller action with signature Void AddNewIndexTest(LogActivitty.Models.Product) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:20:27.647 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-08-04 18:20:27.648 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty) in 21.0387ms
+2021-08-04 18:20:27.649 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:20:27.649 +07:00 [INF] Request finished in 27.9243ms 415 application/problem+json; charset=utf-8
+2021-08-04 18:20:52.914 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:64239/api/logs/post application/x-www-form-urlencoded 69
+2021-08-04 18:20:52.915 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:20:52.916 +07:00 [INF] Route matched with {action = "AddNewIndexTest", controller = "Logs"}. Executing controller action with signature Void AddNewIndexTest(LogActivitty.Models.Product) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:20:52.925 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-08-04 18:20:52.926 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty) in 10.0345ms
+2021-08-04 18:20:52.926 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:20:52.926 +07:00 [INF] Request finished in 13.1266ms 415 application/problem+json; charset=utf-8
+2021-08-04 18:21:06.898 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:64239/api/logs/post application/json 71
+2021-08-04 18:21:06.899 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:21:06.900 +07:00 [INF] Route matched with {action = "AddNewIndexTest", controller = "Logs"}. Executing controller action with signature Void AddNewIndexTest(LogActivitty.Models.Product) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:21:06.906 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-08-04 18:21:06.907 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty) in 6.2512ms
+2021-08-04 18:21:06.907 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:21:06.908 +07:00 [INF] Request finished in 10.1318ms 400 application/problem+json; charset=utf-8
+2021-08-04 18:21:27.197 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:64239/api/logs/post application/x-www-form-urlencoded 69
+2021-08-04 18:21:27.200 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:21:27.201 +07:00 [INF] Route matched with {action = "AddNewIndexTest", controller = "Logs"}. Executing controller action with signature Void AddNewIndexTest(LogActivitty.Models.Product) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:21:27.205 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-08-04 18:21:27.206 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty) in 4.1621ms
+2021-08-04 18:21:27.206 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:21:27.207 +07:00 [INF] Request finished in 10.0222ms 415 application/problem+json; charset=utf-8
+2021-08-04 18:22:12.404 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:64239/api/logs/post text/plain 71
+2021-08-04 18:22:12.405 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:22:12.406 +07:00 [INF] Route matched with {action = "AddNewIndexTest", controller = "Logs"}. Executing controller action with signature Void AddNewIndexTest(LogActivitty.Models.Product) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:22:12.408 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-08-04 18:22:12.409 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty) in 2.9362ms
+2021-08-04 18:22:12.410 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:22:12.411 +07:00 [INF] Request finished in 6.8405ms 415 application/problem+json; charset=utf-8
+2021-08-04 18:23:00.759 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:64239/api/logs/post application/x-www-form-urlencoded 69
+2021-08-04 18:23:00.759 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:23:00.760 +07:00 [INF] Route matched with {action = "AddNewIndexTest", controller = "Logs"}. Executing controller action with signature Void AddNewIndexTest(LogActivitty.Models.Product) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:23:00.762 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-08-04 18:23:00.762 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty) in 2.6559ms
+2021-08-04 18:23:00.763 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:23:00.763 +07:00 [INF] Request finished in 4.3412ms 415 application/problem+json; charset=utf-8
+2021-08-04 18:23:05.442 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/api/logs/post application/x-www-form-urlencoded 69
+2021-08-04 18:23:05.442 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-08-04 18:23:05.443 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-08-04 18:23:05.444 +07:00 [INF] Request finished in 2.2738ms 405 
+2021-08-04 18:23:09.516 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:64239/api/logs/post application/x-www-form-urlencoded 69
+2021-08-04 18:23:09.516 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:23:09.516 +07:00 [INF] Route matched with {action = "AddNewIndexTest", controller = "Logs"}. Executing controller action with signature Void AddNewIndexTest(LogActivitty.Models.Product) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:23:09.519 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-08-04 18:23:09.521 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty) in 4.0653ms
+2021-08-04 18:23:09.521 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:23:09.521 +07:00 [INF] Request finished in 5.5778ms 415 application/problem+json; charset=utf-8
+2021-08-04 18:23:17.603 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-04 18:23:17.619 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/logs  
+2021-08-04 18:23:17.641 +07:00 [INF] Hosting environment: Development
+2021-08-04 18:23:17.641 +07:00 [INF] Content root path: C:\Users\marzo\Documents\Project\ExportExcel\LogActivitty
+2021-08-04 18:23:17.664 +07:00 [INF] Request finished in 49.8279ms 404 
+2021-08-04 18:23:20.596 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:64239/api/logs/post application/x-www-form-urlencoded 69
+2021-08-04 18:23:20.609 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:23:20.671 +07:00 [INF] Route matched with {action = "AddNewIndexTest", controller = "Logs"}. Executing controller action with signature Void AddNewIndexTest(LogActivitty.Models.Product) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:23:20.706 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-08-04 18:23:20.726 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty) in 50.4114ms
+2021-08-04 18:23:20.727 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:23:20.729 +07:00 [INF] Request finished in 134.4396ms 415 application/problem+json; charset=utf-8
+2021-08-04 18:24:40.361 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:64239/api/logs/post application/json 201
+2021-08-04 18:24:40.364 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:24:40.365 +07:00 [INF] Route matched with {action = "AddNewIndexTest", controller = "Logs"}. Executing controller action with signature Void AddNewIndexTest(LogActivitty.Models.Product) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:24:40.388 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-08-04 18:24:40.390 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty) in 24.1067ms
+2021-08-04 18:24:40.391 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:24:40.392 +07:00 [INF] Request finished in 32.4655ms 400 application/problem+json; charset=utf-8
+2021-08-04 18:24:55.497 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:64239/api/logs/post application/json 196
+2021-08-04 18:24:55.498 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:24:55.498 +07:00 [INF] Route matched with {action = "AddNewIndexTest", controller = "Logs"}. Executing controller action with signature Void AddNewIndexTest(LogActivitty.Models.Product) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:24:55.507 +07:00 [INF] called post product
+2021-08-04 18:24:55.561 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty) in 62.7859ms
+2021-08-04 18:24:55.561 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:24:55.562 +07:00 [INF] Request finished in 65.1651ms 200 
+2021-08-04 18:25:03.380 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/api/logs/result/2  
+2021-08-04 18:25:03.381 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:25:03.385 +07:00 [INF] Route matched with {action = "GetResult", controller = "Logs"}. Executing controller action with signature System.Collections.Generic.List`1[LogActivitty.Models.Product] GetResult(System.String) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:25:03.389 +07:00 [INF] called get product
+2021-08-04 18:25:04.037 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[LogActivitty.Models.Product, LogActivitty, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-04 18:25:04.043 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.GetResult (LogActivitty) in 657.4273ms
+2021-08-04 18:25:04.043 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:25:04.043 +07:00 [INF] Request finished in 663.9444ms 200 application/json; charset=utf-8
+2021-08-04 18:25:04.503 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/api/logs/result/3  
+2021-08-04 18:25:04.505 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:25:04.506 +07:00 [INF] Route matched with {action = "GetResult", controller = "Logs"}. Executing controller action with signature System.Collections.Generic.List`1[LogActivitty.Models.Product] GetResult(System.String) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:25:04.509 +07:00 [INF] called get product
+2021-08-04 18:25:04.533 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[LogActivitty.Models.Product, LogActivitty, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-04 18:25:04.534 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.GetResult (LogActivitty) in 27.5291ms
+2021-08-04 18:25:04.534 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:25:04.534 +07:00 [INF] Request finished in 31.8459ms 200 application/json; charset=utf-8
+2021-08-04 18:25:04.608 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/favicon.ico  
+2021-08-04 18:25:04.609 +07:00 [INF] Request finished in 0.4552ms 404 
+2021-08-04 18:25:07.116 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/api/logs/result/4  
+2021-08-04 18:25:07.117 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:25:07.117 +07:00 [INF] Route matched with {action = "GetResult", controller = "Logs"}. Executing controller action with signature System.Collections.Generic.List`1[LogActivitty.Models.Product] GetResult(System.String) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:25:07.118 +07:00 [INF] called get product
+2021-08-04 18:25:07.132 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[LogActivitty.Models.Product, LogActivitty, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-04 18:25:07.133 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.GetResult (LogActivitty) in 15.6613ms
+2021-08-04 18:25:07.133 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:25:07.133 +07:00 [INF] Request finished in 17.5705ms 200 application/json; charset=utf-8
+2021-08-04 18:25:09.254 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/api/logs/result/3  
+2021-08-04 18:25:09.254 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:25:09.255 +07:00 [INF] Route matched with {action = "GetResult", controller = "Logs"}. Executing controller action with signature System.Collections.Generic.List`1[LogActivitty.Models.Product] GetResult(System.String) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:25:09.257 +07:00 [INF] called get product
+2021-08-04 18:25:09.281 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[LogActivitty.Models.Product, LogActivitty, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-04 18:25:09.281 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.GetResult (LogActivitty) in 25.9504ms
+2021-08-04 18:25:09.282 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:25:09.282 +07:00 [INF] Request finished in 28.5221ms 200 application/json; charset=utf-8
+2021-08-04 18:25:19.047 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:64239/api/logs/post application/json 118
+2021-08-04 18:25:19.048 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:25:19.048 +07:00 [INF] Route matched with {action = "AddNewIndexTest", controller = "Logs"}. Executing controller action with signature Void AddNewIndexTest(LogActivitty.Models.Product) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:25:19.054 +07:00 [INF] called post product
+2021-08-04 18:25:19.058 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty) in 9.1212ms
+2021-08-04 18:25:19.058 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:25:19.058 +07:00 [INF] Request finished in 10.9221ms 200 
+2021-08-04 18:25:20.998 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/api/logs/result/3  
+2021-08-04 18:25:20.999 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:25:20.999 +07:00 [INF] Route matched with {action = "GetResult", controller = "Logs"}. Executing controller action with signature System.Collections.Generic.List`1[LogActivitty.Models.Product] GetResult(System.String) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:25:21.000 +07:00 [INF] called get product
+2021-08-04 18:25:21.018 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[LogActivitty.Models.Product, LogActivitty, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-04 18:25:21.018 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.GetResult (LogActivitty) in 19.0615ms
+2021-08-04 18:25:21.019 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:25:21.019 +07:00 [INF] Request finished in 20.4254ms 200 application/json; charset=utf-8
+2021-08-04 18:25:23.354 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/api/logs/result/4  
+2021-08-04 18:25:23.354 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:25:23.355 +07:00 [INF] Route matched with {action = "GetResult", controller = "Logs"}. Executing controller action with signature System.Collections.Generic.List`1[LogActivitty.Models.Product] GetResult(System.String) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:25:23.356 +07:00 [INF] called get product
+2021-08-04 18:25:23.370 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[LogActivitty.Models.Product, LogActivitty, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-04 18:25:23.371 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.GetResult (LogActivitty) in 15.5462ms
+2021-08-04 18:25:23.371 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:25:23.372 +07:00 [INF] Request finished in 18.0384ms 200 application/json; charset=utf-8
+2021-08-04 18:25:26.701 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:64239/api/logs/post application/json 118
+2021-08-04 18:25:26.703 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:25:26.703 +07:00 [INF] Route matched with {action = "AddNewIndexTest", controller = "Logs"}. Executing controller action with signature Void AddNewIndexTest(LogActivitty.Models.Product) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:25:26.707 +07:00 [INF] called post product
+2021-08-04 18:25:26.710 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty) in 6.2173ms
+2021-08-04 18:25:26.710 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.AddNewIndexTest (LogActivitty)'
+2021-08-04 18:25:26.711 +07:00 [INF] Request finished in 10.3414ms 200 
+2021-08-04 18:25:28.791 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:64239/api/logs/result/4  
+2021-08-04 18:25:28.791 +07:00 [INF] Executing endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:25:28.792 +07:00 [INF] Route matched with {action = "GetResult", controller = "Logs"}. Executing controller action with signature System.Collections.Generic.List`1[LogActivitty.Models.Product] GetResult(System.String) on controller LogActivitty.Controllers.LogsController (LogActivitty).
+2021-08-04 18:25:28.793 +07:00 [INF] called get product
+2021-08-04 18:25:28.812 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[LogActivitty.Models.Product, LogActivitty, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-04 18:25:28.812 +07:00 [INF] Executed action LogActivitty.Controllers.LogsController.GetResult (LogActivitty) in 20.3338ms
+2021-08-04 18:25:28.812 +07:00 [INF] Executed endpoint 'LogActivitty.Controllers.LogsController.GetResult (LogActivitty)'
+2021-08-04 18:25:28.813 +07:00 [INF] Request finished in 21.6585ms 200 application/json; charset=utf-8

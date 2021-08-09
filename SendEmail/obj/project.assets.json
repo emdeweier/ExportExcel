@@ -7921,11 +7921,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marzo\\Documents\\Project\\Send Email\\SendEmail\\SendEmail\\SendEmail.csproj",
+      "projectUniqueName": "C:\\Users\\marzo\\Documents\\Project\\ExportExcel\\SendEmail\\SendEmail.csproj",
       "projectName": "SendEmail",
-      "projectPath": "C:\\Users\\marzo\\Documents\\Project\\Send Email\\SendEmail\\SendEmail\\SendEmail.csproj",
+      "projectPath": "C:\\Users\\marzo\\Documents\\Project\\ExportExcel\\SendEmail\\SendEmail.csproj",
       "packagesPath": "C:\\Users\\marzo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marzo\\Documents\\Project\\Send Email\\SendEmail\\SendEmail\\obj\\",
+      "outputPath": "C:\\Users\\marzo\\Documents\\Project\\ExportExcel\\SendEmail\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
